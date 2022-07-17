@@ -97,3 +97,16 @@ function fadeOut(){
 }
 
 window.onload = fadeOut;
+
+
+
+// chatbot
+
+let chatbot_btn = document.querySelector('.chatbot_btn')
+let chatbot = document.querySelector('.chatbot')
+
+chatbot_btn.addEventListener('click', () => {
+  chatbot.classList.toggle('show_bot')
+}) 
+    
+
